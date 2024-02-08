@@ -1278,3 +1278,15 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+.blue-link {
+    color: blue;
+    /* You can add additional styling if needed */
+    text-decoration: none; /* Remove underline, if desired */
+    font-weight: bold; /* Add bold font, if desired */
+};
+
+.center-text {
+	display: flex;
+    text-align: center;
+};
