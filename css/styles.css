@@ -521,7 +521,9 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/dark-blue-header.jpg') center center no-repeat;
+	/* Header my picture */
+	/* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat; */
 	background-size: cover;
 	text-align: center;
 }
@@ -1042,22 +1044,24 @@ a:hover.back-to-top {
 	}
 	/* end of extra pages */
 }
+
+
+/* mobile view for my header picture */
 /* end of min-width 768px */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .h1-large {
-        display: none; /* Hide the heading on mobile devices */
+        display: none;
     }
 
     .text-container {
-        align-items: center; /* Center items in the column */
+        align-items: center;
     }
 
     .buttons {
-        margin-top: 220px; /* Adjust spacing between the heading and buttons */
+        margin-top: 220px;
     }
-}
-
+} */
 
 /* Min-width 992px */
 @media (min-width: 992px) {
